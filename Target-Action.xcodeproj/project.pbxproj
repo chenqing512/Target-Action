@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		165DF9B022110DB4003E713C /* UIView+TargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 165DF9AF22110DB4003E713C /* UIView+TargetAction.m */; };
 		1660FD3F1CCC520E00C814F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660FD3E1CCC520E00C814F8 /* main.m */; };
 		1660FD421CCC520E00C814F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660FD411CCC520E00C814F8 /* AppDelegate.m */; };
 		1660FD451CCC520E00C814F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660FD441CCC520E00C814F8 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		165DF9AE22110DB4003E713C /* UIView+TargetAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TargetAction.h"; sourceTree = "<group>"; };
+		165DF9AF22110DB4003E713C /* UIView+TargetAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TargetAction.m"; sourceTree = "<group>"; };
 		1660FD3A1CCC520E00C814F8 /* Target-Action.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Target-Action.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1660FD3E1CCC520E00C814F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1660FD401CCC520E00C814F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				1660FD411CCC520E00C814F8 /* AppDelegate.m */,
 				1660FD431CCC520E00C814F8 /* ViewController.h */,
 				1660FD441CCC520E00C814F8 /* ViewController.m */,
+				165DF9AE22110DB4003E713C /* UIView+TargetAction.h */,
+				165DF9AF22110DB4003E713C /* UIView+TargetAction.m */,
 				1660FD461CCC520E00C814F8 /* Main.storyboard */,
 				1660FD491CCC520E00C814F8 /* Assets.xcassets */,
 				1660FD4B1CCC520E00C814F8 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1660FD451CCC520E00C814F8 /* ViewController.m in Sources */,
+				165DF9B022110DB4003E713C /* UIView+TargetAction.m in Sources */,
 				1660FD421CCC520E00C814F8 /* AppDelegate.m in Sources */,
 				1660FD3F1CCC520E00C814F8 /* main.m in Sources */,
 			);
@@ -300,6 +306,7 @@
 				1660FD531CCC520E00C814F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
